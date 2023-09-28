@@ -1,0 +1,35 @@
+
+7
+java:S1220""Move this file to a named package.8³†úÀ­1
+€
+java:S4165"cRemove this useless assignment; "grade" already holds the assigned value along all execution paths.(€ô¿Ò8¶†úÀ­1
+}
+java:S4165"aRemove this useless assignment; "gpa" already holds the assigned value along all execution paths.(‹ÖàQ8µ†úÀ­1
+…
+java:S4165"hRemove this useless assignment; "stLastName" already holds the assigned value along all execution paths.(Ê¦èØ8µ†úÀ­1
+†
+java:S4165"iRemove this useless assignment; "stFirstName" already holds the assigned value along all execution paths.(éÍã8¶†úÀ­1
+„
+java:S4165"gRemove this useless assignment; "tLastName" already holds the assigned value along all execution paths.(‰‘Ø¼8µ†úÀ­1
+Š
+java:S4165"hRemove this useless assignment; "tFirstName" already holds the assigned value along all execution paths.(Şß¯éşÿÿÿÿ8µ†úÀ­1
+~
+java:S4165"aRemove this useless assignment; "bus" already holds the assigned value along all execution paths.(İÒÉî8¶†úÀ­1
+‰
+java:S4165"gRemove this useless assignment; "classroom" already holds the assigned value along all execution paths.(ê²–Úüÿÿÿÿ8µ†úÀ­1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(ê²–Úüÿÿÿÿ8»†úÀ­1
+L
+java:S1656"/Remove or correct this useless self-assignment.(éÍã8»†úÀ­1
+L
+java:S1656"/Remove or correct this useless self-assignment.(€ô¿Ò8»†úÀ­1
+L
+java:S1656"/Remove or correct this useless self-assignment.(Ê¦èØ8»†úÀ­1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(Şß¯éşÿÿÿÿ8»†úÀ­1
+L
+java:S1656"/Remove or correct this useless self-assignment.(İÒÉî8»†úÀ­1
+K
+java:S1656"/Remove or correct this useless self-assignment.(‹ÖàQ8»†úÀ­1
+L
+java:S1656"/Remove or correct this useless self-assignment.(‰‘Ø¼8»†úÀ­1

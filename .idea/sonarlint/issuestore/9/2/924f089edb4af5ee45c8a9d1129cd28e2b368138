@@ -1,0 +1,45 @@
+
+{
+java:S1192H"YDefine a constant instead of duplicating this literal ", Student's first name: " 4 times.(”˜”Ôüÿÿÿÿ8ÓéİÉ­1
+h
+java:S1192O"FDefine a constant instead of duplicating this literal "GRADE" 5 times.(¥øë¨ÿÿÿÿÿ8ÔéİÉ­1
+x
+java:S1192B"VDefine a constant instead of duplicating this literal "Student's last name: " 6 times.(”Œî¤úÿÿÿÿ8ÔéİÉ­1
+7
+java:S1220""Move this file to a named package.8ÔéİÉ­1
+L	java:S106"+Replace this use of System.out by a logger.(ã™úÿÿÿÿ8ÒêİÉ­1
+L	java:S106	"+Replace this use of System.out by a logger.(õç¨èûÿÿÿÿ8ÒêİÉ­1
+L	java:S106
+"+Replace this use of System.out by a logger.(ÜêÛ¸ÿÿÿÿÿ8ÒêİÉ­1
+L	java:S106"+Replace this use of System.out by a logger.(àÏ¤¸ıÿÿÿÿ8ÒêİÉ­1
+G	java:S106"+Replace this use of System.out by a logger.(¶¢—À8ÒêİÉ­1
+L	java:S106"+Replace this use of System.out by a logger.(ìò…øÿÿÿÿ8ÕêİÉ­1
+G	java:S106"+Replace this use of System.out by a logger.(ùŠ‡ñ8ÕêİÉ­1
+L	java:S106"+Replace this use of System.out by a logger.(¯¨‡İşÿÿÿÿ8ÕêİÉ­1
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 56 to the 15 allowed.(òá–İıÿÿÿÿ8ÕêİÉ­1
+L	java:S106B"+Replace this use of System.out by a logger.(”Œî¤úÿÿÿÿ8ÃëİÉ­1
+L	java:S106C"+Replace this use of System.out by a logger.(íË×¬ûÿÿÿÿ8ÄëİÉ­1
+L	java:S106E"+Replace this use of System.out by a logger.(ãÎŸÍşÿÿÿÿ8ÄëİÉ­1
+L	java:S106H"+Replace this use of System.out by a logger.(”˜”Ôüÿÿÿÿ8ÄëİÉ­1
+G	java:S106L"+Replace this use of System.out by a logger.(–àË²8ÄëİÉ­1
+G	java:S106T"+Replace this use of System.out by a logger.(–àË²8ÄëİÉ­1
+G	java:S106X"+Replace this use of System.out by a logger.(Åà¥–8ÄëİÉ­1
+n
+java:S3457r"Q%n should be used in place of \n to produce the platform-specific line separator.(¢½¼‚8çêİÉ­1
+G	java:S106r"+Replace this use of System.out by a logger.(¢½¼‚8ÄëİÉ­1
+m
+java:S3457v"Q%n should be used in place of \n to produce the platform-specific line separator.(Ü¥à8ÄëİÉ­1
+F	java:S106v"+Replace this use of System.out by a logger.(Ü¥à8ÄëİÉ­1
+^
+java:S3457|"AFormat specifiers should be used instead of string concatenation.(£ôñ8ÄëİÉ­1
+G	java:S106|"+Replace this use of System.out by a logger.(£ôñ8ÄëİÉ­1
+H	java:S106€"+Replace this use of System.out by a logger.(·¨úà8ÒÊãÉ­1
+M	java:S106"+Replace this use of System.out by a logger.(ùÎ…Ôùÿÿÿÿ8½ÃéÉ­1
+M	java:S106‚"+Replace this use of System.out by a logger.(òŞç™øÿÿÿÿ8ÚÁëÉ­1
+H	java:S106ƒ"+Replace this use of System.out by a logger.(ëîüü8¿–íÉ­1
+M	java:S106„"+Replace this use of System.out by a logger.(´¯›œûÿÿÿÿ8µÀîÉ­1
+M	java:S106…"+Replace this use of System.out by a logger.(âµ¥§ÿÿÿÿÿ8šÊïÉ­1
+M	java:S106†"+Replace this use of System.out by a logger.(’ıÿÿÿÿ8üâñÉ­1
+é
+java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 101 to 64, Complexity from 37 to 14, Nesting Level from 4 to 2, Number of Variables from 19 to 6.(òá–İıÿÿÿÿ8ÄëİÉ­1
