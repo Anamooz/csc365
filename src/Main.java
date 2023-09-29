@@ -15,13 +15,12 @@ public class Main {
         System.out.println("Quit");
 
         Scanner keyboard = new Scanner(System.in);
-        Students student = new Students(); //class initialization in main
         String input = keyboard.nextLine(); //user input from scanner
         input = input.toUpperCase(); //capitalizes user input bc text file is all uppercase
         return input;
     }
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) {
         Students student = new Students();
 
         String input = prompt();
@@ -44,7 +43,13 @@ public class Main {
         int sixCount = 0;
 
 
-        Scanner scanner = new Scanner(new FileReader("students.txt"));
+        Scanner scanner = null;
+        try {
+            scanner = new Scanner(new FileReader("students.txt"));
+        } catch (Exception e) {
+            System.out.println("This not a valid file, exiting...");
+            System.exit(0);
+        }
 
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
@@ -58,20 +63,9 @@ public class Main {
             student.setTLastName(split[6]);
             student.setTFirstName(split[7]);
 
-            if (input.contains("STUDENT") && input.contains("BUS") && input.contains(student.getStLastName())) {
-                if (student.getBus() == 0) {
-                    System.out.println("Student's last name: " + student.getStLastName() + ", Student's bus route: DOES NOT TAKE BUS");
-                    System.out.println("this works");
-                } else {
-                    System.out.println("Student's last name: " + student.getStLastName() + ", Student's bus route: " + student.getBus());
-                }
-            } else if (input.contains("STUDENT") && input.contains(student.getStLastName())) { //works yipiee
-                System.out.println("Student's last name: " + student.getStLastName() + ", Student's first name: " + student.getStFirstName() + ", Student's grade: " + student.getGrade() + ", Student's classroom: " + student.getClassroom() + ", Teacher: " + student.getTLastName() + " " + student.getTFirstName());
-            }
-
-            if (input.contains("TEACHER") && input.contains(student.getTLastName())) {
-                System.out.println("Student's last name: " + student.getStLastName() + ", Student's first name: " + student.getStFirstName());
-            }
+            student.studentKeyWord(input);
+            student.teacherKeyWord(input);
+            student.busKeyWord(input);
 
             if (input.contains("GRADE") && input.contains("HIGH") && input.contains(String.valueOf(student.getGrade()))) {
                 highestGPA = Math.max(student.getGpa(), highestGPA);
@@ -79,10 +73,6 @@ public class Main {
                 lowestGPA = Math.min(student.getGpa(), lowestGPA);
             } else if (input.contains("GRADE") && input.contains(String.valueOf(student.getGrade()))) {
                 System.out.println("Student's last name: " + student.getStLastName() + ", Student's first name: " + student.getStFirstName());
-            }
-
-            if (input.contains("BUS") && input.contains(String.valueOf(student.getBus()))) {
-                System.out.println("Student's last name: " + student.getStLastName() + ", Student's first name: " + student.getStFirstName() + ", Student's grade: " + student.getGrade() + ", Student's classrom: " + student.getClassroom());
             }
 
             if (input.contains("AVERAGE") && input.contains(String.valueOf(student.getGrade()))) {
@@ -134,12 +124,17 @@ public class Main {
         while (!input.equals("QUIT")){
 
             input = prompt();
-            System.out.println(input);
+
             if (input.equals("QUIT")){
                 System.exit(0);
             }
 
-            scanner = new Scanner(new FileReader("students.txt"));
+            try {
+                scanner = new Scanner(new FileReader("students.txt"));
+            } catch (Exception e) {
+                System.out.println("This not a valid file, exiting...");
+                System.exit(0);
+            }
 
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
@@ -153,20 +148,9 @@ public class Main {
                 student.setTLastName(split[6]);
                 student.setTFirstName(split[7]);
 
-                if (input.contains("STUDENT") && input.contains("BUS") && input.contains(student.getStLastName())) {
-                    if (student.getBus() == 0) {
-                        System.out.println("Student's last name: " + student.getStLastName() + ", Student's bus route: DOES NOT TAKE BUS");
-                        System.out.println("this works");
-                    } else {
-                        System.out.println("Student's last name: " + student.getStLastName() + ", Student's bus route: " + student.getBus());
-                    }
-                } else if (input.contains("STUDENT") && input.contains(student.getStLastName())) {
-                    System.out.println("Student's last name: " + student.getStLastName() + ", Student's first name: " + student.getStFirstName() + ", Student's grade: " + student.getGrade() + ", Student's classroom: " + student.getClassroom() + ", Teacher: " + student.getTLastName() + " " + student.getTFirstName());
-                }
-
-                if (input.contains("TEACHER") && input.contains(student.getTLastName())) {
-                    System.out.println("Student's last name: " + student.getStLastName() + ", Student's first name: " + student.getStFirstName());
-                }
+                student.studentKeyWord(input);
+                student.teacherKeyWord(input);
+                student.busKeyWord(input);
 
                 if (input.contains("GRADE") && input.contains("HIGH") && input.contains(String.valueOf(student.getGrade()))) {
                     highestGPA = Math.max(student.getGpa(), highestGPA);
@@ -174,10 +158,6 @@ public class Main {
                     lowestGPA = Math.min(student.getGpa(), lowestGPA);
                 } else if (input.contains("GRADE") && input.contains(String.valueOf(student.getGrade()))) {
                     System.out.println("Student's last name: " + student.getStLastName() + ", Student's first name: " + student.getStFirstName());
-                }
-
-                if (input.contains("BUS") && input.contains(String.valueOf(student.getBus()))) {
-                    System.out.println("Student's last name: " + student.getStLastName() + ", Student's first name: " + student.getStFirstName() + ", Student's grade: " + student.getGrade() + ", Student's classrom: " + student.getClassroom());
                 }
 
                 if (input.contains("AVERAGE") && input.contains(String.valueOf(student.getGrade()))) {

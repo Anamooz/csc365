@@ -83,8 +83,27 @@ public class Students {
         return tFirstName;
     }
 
-    public double compareTo(Students object){
-        double highestGPA = 0;
-        return Math.max(highestGPA, object.getGpa());
+    public void studentKeyWord (String input){
+        if (input.contains("STUDENT") && input.contains("BUS") && input.contains(getStLastName())) {
+            if (getBus() == 0) {
+                System.out.println("Student's last name: " + getStLastName() + ", Student's bus route: DOES NOT TAKE BUS");
+            } else {
+                System.out.println("Student's last name: " + getStLastName() + ", Student's bus route: " + getBus());
+            }
+        } else if (input.contains("STUDENT") && input.contains(getStLastName())) {
+            System.out.println("Student's last name: " + getStLastName() + ", Student's first name: " + getStFirstName() + ", Student's grade: " + getGrade() + ", Student's classroom: " + getClassroom() + ", Teacher: " + getTLastName() + " " + getTFirstName());
+        }
+    }
+
+    public void teacherKeyWord (String input){
+        if (input.contains("TEACHER") && input.contains(getTLastName())) {
+            System.out.println("Student's last name: " + getStLastName() + ", Student's first name: " + getStFirstName());
+        }
+    }
+
+    public void busKeyWord (String input){
+        if (input.contains("BUS") && input.contains(String.valueOf(getBus()))) {
+            System.out.println("Student's last name: " + getStLastName() + ", Student's first name: " + getStFirstName() + ", Student's grade: " + getGrade() + ", Student's classroom: " + getClassroom());
+        }
     }
 }

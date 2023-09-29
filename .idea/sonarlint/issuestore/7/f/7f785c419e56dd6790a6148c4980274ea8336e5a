@@ -1,35 +1,44 @@
 
+x
+java:S1192Y"VDefine a constant instead of duplicating this literal "Student's last name: " 5 times.(Æ†Üİøÿÿÿÿ8Ï®1
+{
+java:S1192^"YDefine a constant instead of duplicating this literal ", Student's first name: " 3 times.(™àÄßÿÿÿÿÿ8óµ«®1
 7
-java:S1220""Move this file to a named package.8³†úÀ­1
+java:S1220""Move this file to a named package.8Ï®1
 €
-java:S4165"cRemove this useless assignment; "grade" already holds the assigned value along all execution paths.(€ô¿Ò8¶†úÀ­1
-}
-java:S4165"aRemove this useless assignment; "gpa" already holds the assigned value along all execution paths.(‹ÖàQ8µ†úÀ­1
-…
-java:S4165"hRemove this useless assignment; "stLastName" already holds the assigned value along all execution paths.(Ê¦èØ8µ†úÀ­1
-†
-java:S4165"iRemove this useless assignment; "stFirstName" already holds the assigned value along all execution paths.(éÍã8¶†úÀ­1
+java:S4165"cRemove this useless assignment; "grade" already holds the assigned value along all execution paths.(€ô¿Ò8¢Ï®1
 „
-java:S4165"gRemove this useless assignment; "tLastName" already holds the assigned value along all execution paths.(‰‘Ø¼8µ†úÀ­1
-Š
-java:S4165"hRemove this useless assignment; "tFirstName" already holds the assigned value along all execution paths.(Şß¯éşÿÿÿÿ8µ†úÀ­1
+java:S4165"gRemove this useless assignment; "tLastName" already holds the assigned value along all execution paths.(‰‘Ø¼8¢Ï®1
+†
+java:S4165"iRemove this useless assignment; "stFirstName" already holds the assigned value along all execution paths.(éÍã8¢Ï®1
 ~
-java:S4165"aRemove this useless assignment; "bus" already holds the assigned value along all execution paths.(İÒÉî8¶†úÀ­1
+java:S4165"aRemove this useless assignment; "bus" already holds the assigned value along all execution paths.(İÒÉî8¢Ï®1
 ‰
-java:S4165"gRemove this useless assignment; "classroom" already holds the assigned value along all execution paths.(ê²–Úüÿÿÿÿ8µ†úÀ­1
+java:S4165"gRemove this useless assignment; "classroom" already holds the assigned value along all execution paths.(ê²–Úüÿÿÿÿ8¢Ï®1
+Š
+java:S4165"hRemove this useless assignment; "tFirstName" already holds the assigned value along all execution paths.(Şß¯éşÿÿÿÿ8¢Ï®1
+}
+java:S4165"aRemove this useless assignment; "gpa" already holds the assigned value along all execution paths.(‹ÖàQ8¢Ï®1
+…
+java:S4165"hRemove this useless assignment; "stLastName" already holds the assigned value along all execution paths.(Ê¦èØ8¢Ï®1
+L	java:S106Y"+Replace this use of System.out by a logger.(Æ†Üİøÿÿÿÿ8¨Ï®1
+G	java:S106["+Replace this use of System.out by a logger.(Ñ§ĞÃ8¨Ï®1
+L	java:S106^"+Replace this use of System.out by a logger.(™àÄßÿÿÿÿÿ8¨Ï®1
+L	java:S106d"+Replace this use of System.out by a logger.(¨š¼…ıÿÿÿÿ8Œç‘®1
+G	java:S106j"+Replace this use of System.out by a logger.(ã©–¦8ıµ«®1
+L
+java:S1656"/Remove or correct this useless self-assignment.(‰‘Ø¼8©Ï®1
+L
+java:S1656"/Remove or correct this useless self-assignment.(İÒÉî8©Ï®1
 Q
-java:S1656"/Remove or correct this useless self-assignment.(ê²–Úüÿÿÿÿ8»†úÀ­1
+java:S1656"/Remove or correct this useless self-assignment.(Şß¯éşÿÿÿÿ8©Ï®1
 L
-java:S1656"/Remove or correct this useless self-assignment.(éÍã8»†úÀ­1
-L
-java:S1656"/Remove or correct this useless self-assignment.(€ô¿Ò8»†úÀ­1
-L
-java:S1656"/Remove or correct this useless self-assignment.(Ê¦èØ8»†úÀ­1
+java:S1656"/Remove or correct this useless self-assignment.(Ê¦èØ8©Ï®1
 Q
-java:S1656"/Remove or correct this useless self-assignment.(Şß¯éşÿÿÿÿ8»†úÀ­1
+java:S1656"/Remove or correct this useless self-assignment.(ê²–Úüÿÿÿÿ8©Ï®1
 L
-java:S1656"/Remove or correct this useless self-assignment.(İÒÉî8»†úÀ­1
+java:S1656"/Remove or correct this useless self-assignment.(éÍã8©Ï®1
+L
+java:S1656"/Remove or correct this useless self-assignment.(€ô¿Ò8©Ï®1
 K
-java:S1656"/Remove or correct this useless self-assignment.(‹ÖàQ8»†úÀ­1
-L
-java:S1656"/Remove or correct this useless self-assignment.(‰‘Ø¼8»†úÀ­1
+java:S1656"/Remove or correct this useless self-assignment.(‹ÖàQ8©Ï®1
