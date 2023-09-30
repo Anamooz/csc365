@@ -2,7 +2,7 @@
 import java.io.FileReader;
 import java.util.Scanner;
 
-public class Main {
+public class schoolsearch {
     public static String prompt() {
         System.out.println("Type out an option,");
         System.out.println("Student: <last name> Bus");
